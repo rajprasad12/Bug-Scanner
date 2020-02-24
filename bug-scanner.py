@@ -46,6 +46,4 @@ if(report == ""):
 else:
     print('Vulnerability report as follows\n')
     print('================================\n')
-
-if(args.output):
     print(report)
