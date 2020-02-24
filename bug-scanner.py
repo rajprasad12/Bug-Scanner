@@ -9,7 +9,7 @@ parser =argparse.ArgumentParser(description='##### The Vulnerbility Scanner ####
 
 parser.add_argument('-v','--version', action='version', version='%(prog)s 1.0')
 parser.add_argument('url', type=str , help='The URL of the HTML to analyse')
-parser.add_argument('-o','--output', help='report output file path')
+
 args =parser.parse_args()
 
 
